@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin Clone - Canlı Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom">
+        <div class="container" style="max-width: 1128px;">
+            <div class="d-flex align-items-center">
+                <a class="navbar-brand me-2" href="#">
+                    <i class="fa-brands fa-linkedin fa-2x text-primary"></i>
+                </a>
+                <div class="input-group d-none d-lg-flex">
+                    <input type="text" class="form-control bg-light border-0" placeholder="Arama Yap"
+                        style="width: 240px;">
+                </div>
+            </div>
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                <li class="nav-item text-center px-3">
+                    <a class="nav-link active" href="#">
+                        <i class="fas fa-home fa-lg d-block"></i>
+                        <span class="d-none d-md-block small">Ana Sayfa</span>
+                    </a>
+                </li>
+                <li class="nav-item text-center px-3">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-user-friends fa-lg d-block"></i>
+                        <span class="d-none d-md-block small">Ağım</span>
+                    </a>
+                </li>
+                <li class="nav-item text-center px-3">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-briefcase fa-lg d-block"></i>
+                        <span class="d-none d-md-block small">İş İlanları</span>
+                    </a>
+                </li>
+                <li class="nav-item text-center px-3">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-comment-dots fa-lg d-block"></i>
+                        <span class="d-none d-md-block small">Mesajlaşma</span>
+                    </a>
+                </li>
+                <li class="nav-item text-center px-3">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-bell fa-lg d-block"></i>
+                        <span class="d-none d-md-block small">Bildirimler</span>
+                    </a>
+                </li>
+                <li class="nav-item text-center px-3 border-start ms-2 ps-2">
+                    <a class="nav-link" href="#">
+                        <img src="https://i.pravatar.cc/150?img=33" class="rounded-circle d-block mx-auto" width="24"
+                            height="24" alt="Ben">
+                        <span class="d-none d-md-block small">Ben <i class="fas fa-caret-down"></i></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container main-content justify-content-center">
+        <div class="row">
+
+            <div class="col-lg-2 col-md-3 d-none d-md-block">
+                <div class="card overflow-hidden mb-2">
+                    <div class="bg-secondary" style="height: 50px;"></div>
+                    <div class="card-body pt-0 text-center">
+                        <img src="https://i.pravatar.cc/150?img=33"
+                            class="rounded-circle border border-3 border-white profile-pic" width="60" height="60">
+                        <h6 class="card-title mt-2 mb-0"><a href="#" class="text-decoration-none text-dark">Merve
+                                Akbulut</a></h6>
+                        <p class="card-text text-muted small">Software Developer</p>
+                        <hr>
+                        <div class="text-start small">
+                            <div class="d-flex justify-content-between">
+                                <span class="text-muted">Profil görüntülemesi</span>
+                                <span class="text-primary fw-bold">447</span>
+                            </div>
+                            <div class="d-flex justify-content-between mt-1">
+                                <span class="text-muted">Yayınınız için...</span>
+                                <span class="text-primary fw-bold">150</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card sticky-sidebar">
+                    <div class="card-body small">
+                        <p class="mb-1 fw-bold">En Yeni</p>
+                        <div class="d-flex align-items-center mb-1">
+                            <i class="fas fa-hashtag me-2 text-muted"></i> <span class="text-muted">kodluyoruz</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-1">
+                            <i class="fas fa-hashtag me-2 text-muted"></i> <span class="text-muted">front-end</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-1">
+                            <i class="fas fa-hashtag me-2 text-muted"></i> <span class="text-muted">html</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-1">
+                            <i class="fas fa-hashtag me-2 text-muted"></i> <span class="text-muted">css</span>
+                        </div>
+                        <div class="d-flex align-items-center mb-1">
+                            <i class="fas fa-hashtag me-2 text-muted"></i> <span class="text-muted">bootstrap</span>
+                        </div>
+                        <p class="mt-3 mb-1 fw-bold text-primary">Gruplar</p>
+                        <p class="mb-1 fw-bold text-primary">Etkinlikler</p>
+                        <p class="mb-1 fw-bold text-primary">Takip edilen hashtagler</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-9 col-sm-12">
+
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <div class="d-flex mb-2">
+                            <img src="https://i.pravatar.cc/150?img=33" class="rounded-circle me-2" width="48"
+                                height="48" alt="Profil">
+                            <button
+                                class="btn btn-outline-secondary rounded-pill w-100 text-start ps-3 fw-bold text-muted">Gönderi
+                                başlat</button>
+                        </div>
+                        <div class="d-flex justify-content-between px-2">
+                            <button class="btn btn-light btn-sm d-flex align-items-center text-muted">
+                                <i class="fas fa-image fa-lg me-2" style="color: #70B5F9;"></i> <span>Fotoğraf</span>
+                            </button>
+                            <button class="btn btn-light btn-sm d-flex align-items-center text-muted">
+                                <i class="fas fa-video fa-lg me-2" style="color: #7FC15E;"></i> <span>Video</span>
+                            </button>
+                            <button class="btn btn-light btn-sm d-flex align-items-center text-muted">
+                                <i class="fas fa-calendar-alt fa-lg me-2" style="color: #E7A33E;"></i>
+                                <span>Etkinlik</span>
+                            </button>
+                            <button class="btn btn-light btn-sm d-flex align-items-center text-muted">
+                                <i class="fas fa-newspaper fa-lg me-2" style="color: #F5987E;"></i> <span>Yazı
+                                    Yaz</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                    <hr class="flex-grow-1">
+                    <span class="small text-muted mx-2">Sıralama ölçütü: <span class="fw-bold text-dark">En
+                            önemli</span> <i class="fas fa-caret-down"></i></span>
+                </div>
+
+                <div class="card mb-2">
+                    <div class="card-body pb-1">
+                        <div class="d-flex mb-2">
+                            <img src="https://i.pravatar.cc/150?img=59" class="rounded-circle me-2" width="48"
+                                height="48">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold text-dark mb-0">David J. Malan</span>
+                                <span class="text-muted small">I teach CS50</span>
+                                <span class="text-muted small"><i class="fas fa-globe-americas"></i> 25a</span>
+                            </div>
+                            <button class="btn ms-auto text-muted"><i class="fas fa-ellipsis-h"></i></button>
+                        </div>
+                        <p class="card-text text-dark">They have done great things! Tebrikler Kodluyoruz!</p>
+                        <img src="https://picsum.photos/600/350?random=1" class="img-fluid rounded mb-2 w-100">
+
+                        <div
+                            class="d-flex align-items-center justify-content-between small text-muted border-bottom pb-2">
+                            <div>
+                                <i class="fas fa-thumbs-up text-primary"></i>
+                                <i class="fas fa-heart text-danger"></i>
+                                <i class="fas fa-hands-clapping text-success"></i>
+                                <span class="ms-1 hover-underline">958</span>
+                            </div>
+                            <div>
+                                <span class="hover-underline">Yorum Yap</span> • <span
+                                    class="hover-underline">Paylaş</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-around mt-1">
+                            <button class="btn btn-light text-muted py-2"><i class="far fa-thumbs-up"></i>
+                                Beğen</button>
+                            <button class="btn btn-light text-muted py-2"><i class="far fa-comment-dots"></i> Yorum
+                                Yap</button>
+                            <button class="btn btn-light text-muted py-2"><i class="fas fa-share"></i> Paylaş</button>
+                            <button class="btn btn-light text-muted py-2"><i class="fas fa-paper-plane"></i>
+                                Gönder</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-2">
+                    <div class="card-body pb-1">
+                        <div class="d-flex mb-2">
+                            <img src="https://i.pravatar.cc/150?img=11" class="rounded-circle me-2" width="48"
+                                height="48">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold text-dark mb-0">Ozan Halis İLTER</span>
+                                <span class="text-muted small">Team Leader at YetGen | CodeCraft</span>
+                                <span class="text-muted small"><i class="fas fa-globe-americas"></i> 1s</span>
+                            </div>
+                        </div>
+                        <p class="card-text text-dark">Erhan Erkut hocamız ile birlikte YetGen'de harika şeyler yapmak
+                            için geliyoruz!</p>
+                        <div class="d-flex justify-content-around mt-1 border-top pt-1">
+                            <button class="btn btn-light text-muted py-2"><i class="far fa-thumbs-up"></i>
+                                Beğen</button>
+                            <button class="btn btn-light text-muted py-2"><i class="far fa-comment-dots"></i> Yorum
+                                Yap</button>
+                            <button class="btn btn-light text-muted py-2"><i class="fas fa-share"></i> Paylaş</button>
+                            <button class="btn btn-light text-muted py-2"><i class="fas fa-paper-plane"></i>
+                                Gönder</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 d-none d-lg-block">
+
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h6 class="card-title fw-bold text-dark mb-0">Akışınıza ekleyin</h6>
+                            <i class="fas fa-info-circle text-muted"></i>
+                        </div>
+
+                        <div class="d-flex align-items-start mb-3">
+                            <img src="https://picsum.photos/48/48?random=2" class="rounded-circle me-2" width="48"
+                                height="48">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold small">Codecraft</span>
+                                <button class="btn btn-outline-secondary rounded-pill btn-sm mt-1 px-3 fw-bold"><i
+                                        class="fas fa-plus"></i> Takip Et</button>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start mb-3">
+                            <img src="https://picsum.photos/48/48?random=3" class="rounded-circle me-2" width="48"
+                                height="48">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold small">Podfresh</span>
+                                <button class="btn btn-outline-secondary rounded-pill btn-sm mt-1 px-3 fw-bold"><i
+                                        class="fas fa-plus"></i> Takip Et</button>
+                            </div>
+                        </div>
+
+                        <a href="#" class="text-decoration-none small fw-bold text-muted">Tüm tavsiyeleri görüntüle <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="card sticky-sidebar">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h6 class="card-title fw-bold text-dark mb-0 small">Bugünün en çok izlenen eğitimleri</h6>
+                            <i class="fas fa-info-circle text-muted"></i>
+                        </div>
+                        <ol class="ps-3 small fw-bold text-dark">
+                            <li class="mb-1">
+                                <span>The Six Morning Habits...</span>
+                                <p class="text-muted fw-normal small mb-0">Pete Mocakatais</p>
+                            </li>
+                            <li class="mb-1">
+                                <span>Unconscious Bias</span>
+                                <p class="text-muted fw-normal small mb-0">Stacey Gordon</p>
+                            </li>
+                            <li class="mb-1">
+                                <span>Critical Thinking for...</span>
+                                <p class="text-muted fw-normal small mb-0">Becki Saltzman</p>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="card-footer bg-white text-center small text-muted border-0">
+                        <a href="#" class="text-muted mx-1 text-decoration-none">Hakkında</a>
+                        <a href="#" class="text-muted mx-1 text-decoration-none">Erişilebilirlik</a>
+                        <a href="#" class="text-muted mx-1 text-decoration-none">Yardım Merkezi</a>
+                        <div class="mt-1">
+                            <span class="mx-1">Linkedin Corporation © 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="messaging-box bg-white border rounded-top shadow-sm">
+        <div class="d-flex align-items-center justify-content-between px-3 py-2 border-bottom">
+            <div class="d-flex align-items-center">
+                <img src="https://i.pravatar.cc/150?img=33" class="rounded-circle me-2" width="30" height="30">
+                <span class="fw-bold small">Mesajlaşma</span>
+            </div>
+            <div class="text-muted">
+                <i class="fas fa-ellipsis-h me-3"></i>
+                <i class="fas fa-edit me-3"></i>
+                <i class="fas fa-chevron-up"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

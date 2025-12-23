@@ -1,0 +1,72 @@
+/* Genel Ayarlar */
+body {
+    background-color: #f3f2ef;
+    padding-top: 4.5rem; /* Navbar yüksekliği kadar boşluk */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Navbar Ayarları */
+.navbar-brand i {
+    color: #0a66c2; /* Linkedin Mavisi */
+}
+
+.nav-link {
+    color: #666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #191919;
+}
+
+/* Card Ayarları */
+.card {
+    border: none; /* Kart kenarlıklarını kaldır */
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.1); /* Linkedin'e benzer ince gölge */
+}
+
+/* Profil Resmi Ayarları (Sol Panel) */
+.profile-pic {
+    margin-top: -30px; /* Resmi yukarı çekip background'un üstüne bindirir */
+    background-color: white;
+}
+
+/* Sticky (Yapışkan) Sidebar */
+.sticky-sidebar {
+    position: sticky;
+    top: 5rem; /* Navbar'ın hemen altında durması için */
+    z-index: 1;
+}
+
+/* Hover Efektleri */
+.hover-underline:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #0a66c2 !important;
+}
+
+/* Mesajlaşma Kutusu */
+.messaging-box {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+/* Buton İkonları için yardımcı ayarlar */
+.btn-light:hover {
+    background-color: #ebebeb;
+}
+
+/* Container Genişlik Ayarı */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1128px;
+    }
+}
